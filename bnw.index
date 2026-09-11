@@ -1,38 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buwan ng Wika</title>
+<html>
 
-    <link rel="stylesheet" href="style.css">
+<head>
+<title>Buwan Ng Wika</title>
+<link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24W-ttCGcvvvbBJOEYr9Zg76nr_-zDAPJzi9CavhnDr2dBXYCS1HRMRA&s=10">
+<link rel="stylesheet" href="mystyle.css">
+
+<style>
+
+h2{
+    color:#FFD700;
+    text-align:center;
+    font-size:35px;
+    text-shadow:2px 2px 5px black;
+}
+
+.card{
+    
+    background:rgba(255,255,255,0.8);
+    width:60%;
+    margin:auto;
+    padding:20px;
+    border-radius:15px;
+    
+}
+</style>
 </head>
 <body>
 
-    <center>
-        <h1>Buwan ng Wika</h1>
+<h1><b>Buwan Ng Wika<b></h1>
 
-        <div>
-            <h2>Pagdiriwang ng Wikang Filipino</h2>
+<h2>
+"Wikang Filipino: Susi sa Pagkakaisa"
+</h2>
 
-            <p>
-                Ang Buwan ng Wika ay ipinagdiriwang tuwing Agosto upang
-                pahalagahan ang ating wikang Filipino at kulturang Pilipino.
-            </p>
+<div class="card">
 
-            <p>Maligayang <strong>Buwan ng Wika!</strong></p>
+<p>
+Ang <b>Buwan ng Wika</b> ay ipinagdiriwang tuwing Agosto
+upang bigyang halaga ang ating wikang pambansa,
+kultura, at pagkakakilanlan bilang Pilipino.
+</p>
 
-            <h3>Ipagmalaki ang Wikang Filipino</h3>
+<h2>Mga Katangian ng Pilipino</h2>
 
-            <p>
-                <b>Filipino</b> ang ating pambansang wika.<br>
-                <i>Mahalin</i> at <u>ipagmalaki</u> ito.<br>
-                Ang wikang Filipino ay <mark>MAHALAGA</mark> sa ating pagkakakilanlan.
-            </p>
-        </div>
-    </center>
+<ul>
+<li>Makabayan</li>
+<li>Magalang</li>
+<li>Masipag</li>
+<li>Matulungin</li>
+</ul>
 
-<a href="index.html"><button>home.</button> </a>
+<p style="
+color:red;
+font-size:25px;
+font-weight:bold;
+text-align:center;
+">
+"Mahal ko ang Wikang Filipino!"
+</p>
+
+</div>
+
+<br>
+
+<center>
+
+<a href="index.html">
+
+<button>
+Main Page
+</button>
+</a>
+
+</center>
 
 </body>
 </html>
