@@ -1,109 +1,59 @@
-body{
-    margin:0;
-    padding:20px;
-
-    background:
-    linear-gradient(
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-    ),
-    url("https://i.pinimg.com/736x/b6/ce/22/b6ce22d963851429fc5a53e5dda6dc59.jpg");
-
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment:scroll;
-
-    font-family:Arial, sans-serif;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0038A8;
+    margin: 0;
+    padding: 20px;
 }
 
-
-h1{
-    color:#FFD700;
-    text-align:center;
-    font-size:70px;
-    text-shadow:
-    4px 4px 8px black;
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 2px 2px 5px black;
 }
 
-p{
-    color:#FFFFFF;
-    font-size:20px;
-    line-height:1.6;
+h2 {
+    color: #FFD700;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px black;
 }
 
-li{
-    font-size:22px;
-    color:#FFD700;
-    font-weight:bold;
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
 }
 
-button{
-    background:#CE1126;
-    color:white;
-    border:none;
-    padding:12px 30px;
-    border-radius:10px;
-    font-size:18px;
-    cursor:pointer;
+.card p {
+    font-size: 18px;
+    line-height: 1.6;
 }
 
-button:hover{
-
-    background:#0038A8;
-
-}body{
-    margin:0;
-    padding:20px;
-
-    background:
-    linear-gradient(
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-    ),
-    url("https://i.pinimg.com/736x/b6/ce/22/b6ce22d963851429fc5a53e5dda6dc59.jpg");
-
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment:scroll;
-
-    font-family:Arial, sans-serif;
+.card ul {
+    font-size: 18px;
+    line-height: 1.8;
 }
 
-
-h1{
-    color:#FFD700;
-    text-align:center;
-    font-size:70px;
-    text-shadow:
-    4px 4px 8px black;
+.quote {
+    color: red;
+    font-size: 25px !important;
+    font-weight: bold;
+    text-align: center;
 }
 
-p{
-    color:#FFFFFF;
-    font-size:20px;
-    line-height:1.6;
+button {
+    background-color: #CE1126;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
-li{
-    font-size:22px;
-    color:#FFD700;
-    font-weight:bold;
-}
-
-button{
-    background:#CE1126;
-    color:white;
-    border:none;
-    padding:12px 30px;
-    border-radius:10px;
-    font-size:18px;
-    cursor:pointer;
-}
-
-button:hover{
-
-    background:#0038A8;
-
+button:hover {
+    background-color: #A00D1D;
 }
